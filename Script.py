@@ -35,7 +35,7 @@ def check():
                 print("Motion detected")
                 camera.start_preview()
                 sleep(5)
-                camera.capture('Pick your own directory’')
+                camera.capture('Pick your own directory')
                 camera.stop_preview()
                  
                 #Create the Message to be sent with the subject specified
